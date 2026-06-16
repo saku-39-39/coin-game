@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\taguc\\Downloads\\CoinGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE7119E-44D2-D691-E857-A8992B71CC4F}|Assembly-CSharp.csproj|c:\\users\\taguc\\downloads\\coingame\\assets\\scripts\\coinbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE7119E-44D2-D691-E857-A8992B71CC4F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coinbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE7119E-44D2-D691-E857-A8992B71CC4F}|Assembly-CSharp.csproj|C:\\Users\\taguc\\Downloads\\CoinGame\\assets\\scripts\\initialcoinplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE7119E-44D2-D691-E857-A8992B71CC4F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\initialcoinplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE7119E-44D2-D691-E857-A8992B71CC4F}|Assembly-CSharp.csproj|C:\\Users\\taguc\\Downloads\\CoinGame\\assets\\scripts\\coindroppergame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE7119E-44D2-D691-E857-A8992B71CC4F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coindroppergame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InitialCoinPlacer.cs",
+              "DocumentMoniker": "C:\\Users\\taguc\\Downloads\\CoinGame\\Assets\\scripts\\InitialCoinPlacer.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\InitialCoinPlacer.cs",
+              "ToolTip": "C:\\Users\\taguc\\Downloads\\CoinGame\\Assets\\scripts\\InitialCoinPlacer.cs",
+              "RelativeToolTip": "Assets\\scripts\\InitialCoinPlacer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T03:14:08.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CoinBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\taguc\\Downloads\\CoinGame\\Assets\\scripts\\CoinBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\CoinBehavior.cs",
+              "ToolTip": "C:\\Users\\taguc\\Downloads\\CoinGame\\Assets\\scripts\\CoinBehavior.cs",
+              "RelativeToolTip": "Assets\\scripts\\CoinBehavior.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T03:13:51.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CoinDropperGame.cs",
+              "DocumentMoniker": "C:\\Users\\taguc\\Downloads\\CoinGame\\Assets\\scripts\\CoinDropperGame.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\CoinDropperGame.cs",
+              "ToolTip": "C:\\Users\\taguc\\Downloads\\CoinGame\\Assets\\scripts\\CoinDropperGame.cs",
+              "RelativeToolTip": "Assets\\scripts\\CoinDropperGame.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T03:12:42.686Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
