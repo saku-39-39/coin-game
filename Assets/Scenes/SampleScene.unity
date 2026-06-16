@@ -315,8 +315,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 560315569}
-  - component: {fileID: 560315568}
-  - component: {fileID: 560315567}
+  - component: {fileID: 560315571}
+  - component: {fileID: 560315570}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -324,48 +324,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &560315567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560315566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9472254caa2253e43a6353ed32679c3d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coinPrefab: {fileID: 5375137231626152272, guid: 8b4fd37a1291c684cb104ff6a9080be8, type: 3}
-  platformArea: {fileID: 1689262276}
-  initialCoinCount: 100
-  minX: -2
-  maxX: 2
-  minZ: -2
-  maxZ: 2
-  platformY: 0
---- !u!114 &560315568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560315566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ded5b0ff4a6727c48879e40f83692c84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initialCoins: 999
-  platformSpeed: 2
-  platformRange: 2
-  platform: {fileID: 1689262276}
-  coinPrefab: {fileID: 5375137231626152272, guid: 8b4fd37a1291c684cb104ff6a9080be8, type: 3}
-  spawnPointTransform: {fileID: 796416719}
-  coinCountText: {fileID: 1244165049}
-  gameOverText: {fileID: 441987418}
-  catchZoneMinZ: -1
-  catchZoneMaxZ: 1
 --- !u!4 &560315569
 Transform:
   m_ObjectHideFlags: 0
@@ -383,6 +341,43 @@ Transform:
   - {fileID: 1837921032}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &560315570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560315566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 649d46401c1d3c24497e63d0c52c14ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinPrefab: {fileID: 5375137231626152272, guid: 8b4fd37a1291c684cb104ff6a9080be8, type: 3}
+  platformArea: {fileID: 1689262276}
+  initialCoinCount: 5
+  spawnHeightOffset: 0.15
+  horizontalMargin: 0.5
+--- !u!114 &560315571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560315566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 933732a39c581bb4485559d7aa46f9a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCoins: 100
+  platformSpeed: 2
+  platformRange: 2
+  platform: {fileID: 1689262276}
+  coinPrefab: {fileID: 5375137231626152272, guid: 8b4fd37a1291c684cb104ff6a9080be8, type: 3}
+  spawnPointTransform: {fileID: 796416719}
+  coinCountText: {fileID: 1244165049}
+  gameOverText: {fileID: 441987418}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,6 +855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1359420920}
   - component: {fileID: 1359420921}
+  - component: {fileID: 1359420923}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -903,6 +899,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1359420923
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359420919}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1498690052
 GameObject:
   m_ObjectHideFlags: 0

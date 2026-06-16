@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 8610564371455226706}
   - component: {fileID: 6814339424151396829}
   - component: {fileID: 5375137231626152272}
-  - component: {fileID: 3566971904315032232}
   - component: {fileID: 6755388489206226615}
+  - component: {fileID: 1836637229782313269}
   m_Layer: 0
   m_Name: coin
   m_TagString: Untagged
@@ -113,23 +113,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
---- !u!114 &3566971904315032232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6942475405762541334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a98cdf44eb24c2f4cbf7cc9b7d13fa9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  platformWorldScale: {x: 10, y: 2, z: 10}
-  compensatingScale: {x: 0.1, y: 0.5, z: 0.1}
-  catchZoneMinZ: -1
-  catchZoneMaxZ: 0
-  destroyYPosition: -10
 --- !u!64 &6755388489206226615
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -152,3 +135,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1836637229782313269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6942475405762541334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90d2c013b9e23d94e95f06ea2d223990, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  catchZoneMinZ: -1
+  catchZoneMaxZ: 0
+  destroyYPosition: -10
+  logWhenDestroyed: 0
