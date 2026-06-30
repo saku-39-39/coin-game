@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\taguc\\Downloads\\CoinGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6AE7119E-44D2-D691-E857-A8992B71CC4F}|Assembly-CSharp.csproj|c:\\users\\taguc\\downloads\\coingame\\assets\\scripts\\newbehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AE7119E-44D2-D691-E857-A8992B71CC4F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\newbehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6AE7119E-44D2-D691-E857-A8992B71CC4F}|Assembly-CSharp.csproj|C:\\Users\\taguc\\Downloads\\CoinGame\\assets\\scripts\\coindroppergame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AE7119E-44D2-D691-E857-A8992B71CC4F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coindroppergame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE7119E-44D2-D691-E857-A8992B71CC4F}|Assembly-CSharp.csproj|c:\\users\\taguc\\downloads\\coingame\\assets\\scripts\\initialcoinplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE7119E-44D2-D691-E857-A8992B71CC4F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\initialcoinplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\taguc\\Downloads\\CoinGame\\Assets\\scripts\\NewBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\NewBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "InitialCoinPlacer.cs",
+              "DocumentMoniker": "C:\\Users\\taguc\\Downloads\\CoinGame\\Assets\\scripts\\InitialCoinPlacer.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\InitialCoinPlacer.cs",
+              "ToolTip": "C:\\Users\\taguc\\Downloads\\CoinGame\\Assets\\scripts\\InitialCoinPlacer.cs",
+              "RelativeToolTip": "Assets\\scripts\\InitialCoinPlacer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T04:55:40.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "CoinDropperGame.cs",
               "DocumentMoniker": "C:\\Users\\taguc\\Downloads\\CoinGame\\Assets\\scripts\\CoinDropperGame.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\CoinDropperGame.cs",
               "ToolTip": "C:\\Users\\taguc\\Downloads\\CoinGame\\Assets\\scripts\\CoinDropperGame.cs",
               "RelativeToolTip": "Assets\\scripts\\CoinDropperGame.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAwAAAAAAAAAAA",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAhwJQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T04:54:28.973Z"
+              "WhenOpened": "2026-06-16T04:54:28.973Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NewBehaviourScript.cs",
               "DocumentMoniker": "C:\\Users\\taguc\\Downloads\\CoinGame\\Assets\\scripts\\NewBehaviourScript.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\NewBehaviourScript.cs",
               "ToolTip": "C:\\Users\\taguc\\Downloads\\CoinGame\\Assets\\scripts\\NewBehaviourScript.cs",
               "RelativeToolTip": "Assets\\scripts\\NewBehaviourScript.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAUwEMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T04:52:54.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T04:52:54.626Z"
             }
           ]
         }
