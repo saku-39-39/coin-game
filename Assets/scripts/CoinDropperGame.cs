@@ -117,7 +117,6 @@ public class CoinDropperGame : MonoBehaviour
     {
         if (platform == null || coinPrefab == null || spawnPointTransform == null || coinCountText == null || gameOverText == null)
         {
-            Debug.LogError("CoinDropperGameの参照が不足しています。Inspectorの設定を確認してください。", this);
             return false;
         }
 

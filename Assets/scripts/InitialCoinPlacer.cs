@@ -20,14 +20,12 @@ public class InitialCoinPlacer : MonoBehaviour
     {
         if (coinPrefab == null || platformArea == null)
         {
-            Debug.LogError("InitialCoinPlacerの参照が不足しています。Inspectorの設定を確認してください。", this);
             return;
         }
 
         Collider platformCollider = platformArea.GetComponent<Collider>();
         if (platformCollider == null)
         {
-            Debug.LogError("platformAreaにColliderがありません。", this);
             return;
         }
 

@@ -78,12 +78,6 @@ public class CoinBehavior : MonoBehaviour
     private void CheckDestroyBounds()
     {
         if (transform.position.y >= destroyYPosition) return;
-
-        if (logWhenDestroyed)
-        {
-            Debug.Log("コインが画面外に消えました。", this);
-        }
-
         Destroy(gameObject);
     }
 
